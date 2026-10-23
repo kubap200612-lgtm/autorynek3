@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autorynek",
+  "version": "${version}",
+  "name": "AutoRynek",
+  "description": "Automatyzacja rynku (/ah): analiza cen, podswietlanie ofert, auto-kupno, HUD, anty-AFK.",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.autorynek.AutoRynekClient"]
+  },
+  "mixins": ["autorynek.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
